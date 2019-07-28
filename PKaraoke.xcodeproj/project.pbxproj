@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0945AB9022EC9ED100BC7DCE /* PresentationViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945AB8F22EC9ED100BC7DCE /* PresentationViewData.swift */; };
+		0945AB9222EC9EDD00BC7DCE /* PresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945AB9122EC9EDD00BC7DCE /* PresentationView.swift */; };
+		0945AB9422EC9EE800BC7DCE /* PresentationWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945AB9322EC9EE800BC7DCE /* PresentationWindowManager.swift */; };
 		EE5D725622EC35870018C43B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D725522EC35870018C43B /* AppDelegate.swift */; };
 		EE5D725822EC35870018C43B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D725722EC35870018C43B /* SceneDelegate.swift */; };
-		EE5D725A22EC35870018C43B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D725922EC35870018C43B /* ContentView.swift */; };
+		EE5D725A22EC35870018C43B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D725922EC35870018C43B /* WelcomeView.swift */; };
 		EE5D725C22EC35880018C43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5D725B22EC35880018C43B /* Assets.xcassets */; };
 		EE5D725F22EC35880018C43B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5D725E22EC35880018C43B /* Preview Assets.xcassets */; };
 		EE5D726222EC35880018C43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5D726022EC35880018C43B /* LaunchScreen.storyboard */; };
 		EE5D726D22EC35880018C43B /* PKaraokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D726C22EC35880018C43B /* PKaraokeTests.swift */; };
 		EE5D727822EC35880018C43B /* PKaraokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D727722EC35880018C43B /* PKaraokeUITests.swift */; };
+		EE5D728622EC3D1E0018C43B /* PresenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D728522EC3D1E0018C43B /* PresenterView.swift */; };
+		EE5D728822EC3FB70018C43B /* PresentationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5D728722EC3FB70018C43B /* PresentationData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0945AB8F22EC9ED100BC7DCE /* PresentationViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewData.swift; sourceTree = "<group>"; };
+		0945AB9122EC9EDD00BC7DCE /* PresentationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationView.swift; sourceTree = "<group>"; };
+		0945AB9322EC9EE800BC7DCE /* PresentationWindowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationWindowManager.swift; sourceTree = "<group>"; };
 		EE5D725222EC35870018C43B /* PKaraoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKaraoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5D725522EC35870018C43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE5D725722EC35870018C43B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE5D725922EC35870018C43B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE5D725922EC35870018C43B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		EE5D725B22EC35880018C43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE5D725E22EC35880018C43B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE5D726122EC35880018C43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		EE5D727322EC35880018C43B /* PKaraokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKaraokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5D727722EC35880018C43B /* PKaraokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKaraokeUITests.swift; sourceTree = "<group>"; };
 		EE5D727922EC35880018C43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5D728522EC3D1E0018C43B /* PresenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterView.swift; sourceTree = "<group>"; };
+		EE5D728722EC3FB70018C43B /* PresentationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,16 @@
 			children = (
 				EE5D725522EC35870018C43B /* AppDelegate.swift */,
 				EE5D725722EC35870018C43B /* SceneDelegate.swift */,
-				EE5D725922EC35870018C43B /* ContentView.swift */,
+				EE5D725922EC35870018C43B /* WelcomeView.swift */,
 				EE5D725B22EC35880018C43B /* Assets.xcassets */,
 				EE5D726022EC35880018C43B /* LaunchScreen.storyboard */,
 				EE5D726322EC35880018C43B /* Info.plist */,
 				EE5D725D22EC35880018C43B /* Preview Content */,
+				EE5D728522EC3D1E0018C43B /* PresenterView.swift */,
+				0945AB9122EC9EDD00BC7DCE /* PresentationView.swift */,
+				0945AB8F22EC9ED100BC7DCE /* PresentationViewData.swift */,
+				EE5D728722EC3FB70018C43B /* PresentationData.swift */,
+				0945AB9322EC9EE800BC7DCE /* PresentationWindowManager.swift */,
 			);
 			path = PKaraoke;
 			sourceTree = "<group>";
@@ -267,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0945AB9222EC9EDD00BC7DCE /* PresentationView.swift in Sources */,
+				0945AB9422EC9EE800BC7DCE /* PresentationWindowManager.swift in Sources */,
+				EE5D728822EC3FB70018C43B /* PresentationData.swift in Sources */,
+				EE5D728622EC3D1E0018C43B /* PresenterView.swift in Sources */,
 				EE5D725622EC35870018C43B /* AppDelegate.swift in Sources */,
 				EE5D725822EC35870018C43B /* SceneDelegate.swift in Sources */,
-				EE5D725A22EC35870018C43B /* ContentView.swift in Sources */,
+				0945AB9022EC9ED100BC7DCE /* PresentationViewData.swift in Sources */,
+				EE5D725A22EC35870018C43B /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
